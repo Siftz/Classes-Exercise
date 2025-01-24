@@ -2,9 +2,16 @@
 {
     public class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello, World!");
+            Car myCar = new Car(); //wifes car
+            myCar.Make = "Toyota";
+            myCar.Model = "Yaris";
+            myCar.Year = 2009;
+
+            Console.WriteLine("Make: " + myCar.Make);
+            Console.WriteLine("Model: " + myCar.Model);
+            Console.WriteLine("Year: " + myCar.Year);
         }
     }
 }
